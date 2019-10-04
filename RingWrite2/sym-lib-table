@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name RingWrite2-rescue)(type Legacy)(uri ${KIPRJMOD}/RingWrite2-rescue.lib)(options "")(descr ""))
+)

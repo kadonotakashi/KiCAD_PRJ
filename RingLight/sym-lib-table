@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name kdn_kicad)(type Legacy)(uri D:/KiCAD_WORK/Library/kdn_kicad.lib)(options "")(descr ""))
+  (lib (name kyocera3-rescue)(type Legacy)(uri D:/KiCAD_WORK/kyocera3/kyocera3-rescue.lib)(options "")(descr ""))
+)

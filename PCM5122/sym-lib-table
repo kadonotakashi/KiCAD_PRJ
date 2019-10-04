@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name kdn_kicad)(type Legacy)(uri /Users/takashi/DEVELOPMENT/KiCAD_WORK/Library/kdn_kicad.lib)(options "")(descr ""))
+  (lib (name PCM5122-rescue)(type Legacy)(uri ${KIPRJMOD}/PCM5122-rescue.lib)(options "")(descr ""))
+)

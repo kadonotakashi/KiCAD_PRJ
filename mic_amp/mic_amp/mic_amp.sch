@@ -1,0 +1,269 @@
+EESchema Schematic File Version 4
+LIBS:mic_amp-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DIN-3 J2
+U 1 1 5D706380
+P 7100 3950
+F 0 "J2" V 7146 3721 50  0000 R CNN
+F 1 "DIN-3" V 7055 3721 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7100 3950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 7100 3950 50  0001 C CNN
+	1    7100 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D706495
+P 5950 3300
+F 0 "R4" H 6020 3346 50  0000 L CNN
+F 1 "47k" H 6020 3255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5880 3300 50  0001 C CNN
+F 3 "~" H 5950 3300 50  0001 C CNN
+	1    5950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D7066FB
+P 5950 4350
+F 0 "R5" H 6020 4396 50  0000 L CNN
+F 1 "47k" H 6020 4305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5880 4350 50  0001 C CNN
+F 3 "~" H 5950 4350 50  0001 C CNN
+	1    5950 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3950 6600 3950
+Wire Wire Line
+	6600 3950 6600 4750
+Wire Wire Line
+	6600 4750 5950 4750
+Wire Wire Line
+	5150 4750 5150 4500
+Wire Wire Line
+	5150 3150 5150 2850
+Wire Wire Line
+	5150 2850 5950 2850
+Wire Wire Line
+	6600 2850 6600 3650
+Wire Wire Line
+	6600 3650 7100 3650
+Wire Wire Line
+	5950 2850 5950 3150
+Connection ~ 5950 2850
+Wire Wire Line
+	5950 2850 6600 2850
+Wire Wire Line
+	5950 3450 5950 3850
+Wire Wire Line
+	5950 4500 5950 4750
+Connection ~ 5950 4750
+Wire Wire Line
+	5950 4750 5150 4750
+Wire Wire Line
+	7100 4250 7100 5550
+Wire Wire Line
+	7100 5550 6300 5550
+Wire Wire Line
+	5950 3850 6300 3850
+Connection ~ 5950 3850
+Wire Wire Line
+	5950 3850 5950 4200
+$Comp
+L Device:R R6
+U 1 1 5D706B95
+P 6300 5250
+F 0 "R6" H 6370 5296 50  0000 L CNN
+F 1 "10k" H 6350 5200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6230 5250 50  0001 C CNN
+F 3 "~" H 6300 5250 50  0001 C CNN
+	1    6300 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5400 6300 5550
+Wire Wire Line
+	6300 5550 5950 5550
+$Comp
+L Device:CP1 C2
+U 1 1 5D706F45
+P 5950 5250
+F 0 "C2" H 5750 5150 50  0000 L CNN
+F 1 "2.2uF/50V" H 5750 5050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 5950 5250 50  0001 C CNN
+F 3 "~" H 5950 5250 50  0001 C CNN
+	1    5950 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3550 5150 3850
+$Comp
+L Device:R R3
+U 1 1 5D7071B7
+P 5400 5250
+F 0 "R3" H 5470 5296 50  0000 L CNN
+F 1 "1k5" H 5450 5200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5330 5250 50  0001 C CNN
+F 3 "~" H 5400 5250 50  0001 C CNN
+	1    5400 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3850 5400 3850
+Wire Wire Line
+	5400 3850 5400 5100
+Connection ~ 5150 3850
+Wire Wire Line
+	5150 3850 5150 4100
+Wire Wire Line
+	5400 5400 5400 5550
+Connection ~ 5400 5550
+Wire Wire Line
+	4850 4300 4800 4300
+Wire Wire Line
+	4800 4300 4800 5550
+Connection ~ 4800 5550
+$Comp
+L Device:C C1
+U 1 1 5D707B16
+P 4350 3350
+F 0 "C1" V 4098 3350 50  0000 C CNN
+F 1 "0.22u/63V" V 4189 3350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm" H 4388 3200 50  0001 C CNN
+F 3 "~" H 4350 3350 50  0001 C CNN
+	1    4350 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D707B83
+P 4600 4000
+F 0 "R2" H 4670 4046 50  0000 L CNN
+F 1 "1M" H 4670 3955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4530 4000 50  0001 C CNN
+F 3 "~" H 4600 4000 50  0001 C CNN
+	1    4600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D707C0D
+P 4150 4000
+F 0 "R1" H 4220 4046 50  0000 L CNN
+F 1 "10k" H 4220 3955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4080 4000 50  0001 C CNN
+F 3 "~" H 4150 4000 50  0001 C CNN
+	1    4150 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3350 4600 3350
+Wire Wire Line
+	4600 3350 4600 3850
+Wire Wire Line
+	4600 4150 4600 5550
+Connection ~ 4600 5550
+Wire Wire Line
+	4600 5550 4150 5550
+Wire Wire Line
+	4600 3350 4500 3350
+Connection ~ 4600 3350
+Wire Wire Line
+	5950 5400 5950 5550
+Connection ~ 5950 5550
+Wire Wire Line
+	5950 5550 5400 5550
+Wire Wire Line
+	4200 3350 4150 3350
+Wire Wire Line
+	4150 3350 4150 3850
+Wire Wire Line
+	4150 4150 4150 5550
+Connection ~ 6300 5550
+Wire Wire Line
+	5400 5550 4800 5550
+Wire Wire Line
+	4800 5550 4600 5550
+Wire Wire Line
+	6300 3850 6300 4950
+Wire Wire Line
+	6300 4950 5950 4950
+Connection ~ 6300 4950
+Wire Wire Line
+	6300 4950 6300 5100
+Wire Wire Line
+	5950 5100 5950 4950
+Text Notes 6100 3800 0    50   ~ 0
+1.4mA
+Text Notes 2750 5050 0    50   ~ 0
+GND
+Text Notes 2750 4800 0    50   ~ 0
+S
+Connection ~ 4150 5550
+Wire Wire Line
+	2850 5550 4150 5550
+Connection ~ 5950 4950
+Wire Wire Line
+	5950 4950 2750 4950
+Connection ~ 4150 3350
+Wire Wire Line
+	4150 3350 2850 3350
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5D72E4E4
+P 2550 4950
+F 0 "J1" H 2950 5000 50  0000 C CNN
+F 1 "Conn_01x03" H 2900 4850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2550 4950 50  0001 C CNN
+F 3 "~" H 2550 4950 50  0001 C CNN
+	1    2550 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3350 2850 4850
+Wire Wire Line
+	2850 4850 2750 4850
+Wire Wire Line
+	2750 5050 2850 5050
+Wire Wire Line
+	2850 5050 2850 5550
+Text Notes 2750 4950 0    50   ~ 0
+D
+$Comp
+L Device:Q_NJFET_SGD Q2
+U 1 1 5D783C8E
+P 5050 4300
+F 0 "Q2" H 5241 4254 50  0000 L CNN
+F 1 "2Sk2881" H 5241 4345 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5250 4400 50  0001 C CNN
+F 3 "~" H 5050 4300 50  0001 C CNN
+	1    5050 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_NJFET_SGD Q1
+U 1 1 5D7854A0
+P 5050 3350
+F 0 "Q1" H 5241 3396 50  0000 L CNN
+F 1 "2SK2881" H 5241 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5250 3450 50  0001 C CNN
+F 3 "~" H 5050 3350 50  0001 C CNN
+	1    5050 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

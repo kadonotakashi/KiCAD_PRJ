@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name kyocera3-rescue)(type Legacy)(uri ${KIPRJMOD}/kyocera3-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AE-DRV8835
+D Dual H-Bridge Motor Driver, HTSSOP-16
+K H-bridge motor driver
+$ENDCMP
+#
+$CMP TB6674PG
+D Dual H-Bridge Stepping Motor Driver
+K H-bridge motor driver
+$ENDCMP
+#
+$CMP ULN2003
+D Dual H-Bridge Stepping Motor Driver
+K H-bridge motor driver
+$ENDCMP
+#
+#End Doc Library
