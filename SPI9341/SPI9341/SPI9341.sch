@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SPI9341-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L kdn_kicad:LCD_ILI9341_SPI U?
+L SPI9341-rescue:LCD_ILI9341_SPI-kdn_kicad U?
 U 1 1 5CC9C7CE
 P 5350 2950
 F 0 "U?" H 5406 3965 50  0000 C CNN
