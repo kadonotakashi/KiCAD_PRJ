@@ -1,0 +1,133 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kdn_kicad:LCD_ILI9341_SPI U?
+U 1 1 5CC9C7CE
+P 5350 2950
+F 0 "U?" H 5406 3965 50  0000 C CNN
+F 1 "LCD_ILI9341_SPI" H 5406 3874 50  0000 C CNN
+F 2 "" H 5350 2900 50  0001 C CNN
+F 3 "" H 5350 2900 50  0001 C CNN
+	1    5350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J?
+U 1 1 5CC9C8D5
+P 3850 2600
+F 0 "J?" H 3770 3117 50  0000 C CNN
+F 1 "Conn_01x07" H 3770 3026 50  0000 C CNN
+F 2 "" H 3850 2600 50  0001 C CNN
+F 3 "~" H 3850 2600 50  0001 C CNN
+	1    3850 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2500 4650 2500
+Wire Wire Line
+	4650 2600 4050 2600
+Wire Wire Line
+	4050 2700 4650 2700
+Wire Wire Line
+	4650 2800 4050 2800
+Wire Wire Line
+	4050 2900 4650 2900
+Wire Wire Line
+	4050 2400 4350 2400
+Wire Wire Line
+	4350 2400 4350 2300
+Wire Wire Line
+	4350 2300 4500 2300
+Wire Wire Line
+	4050 2300 4050 2200
+Wire Wire Line
+	4050 2200 4300 2200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CC9CA87
+P 4500 2200
+F 0 "#PWR?" H 4500 2050 50  0001 C CNN
+F 1 "+3.3V" H 4515 2373 50  0000 C CNN
+F 2 "" H 4500 2200 50  0001 C CNN
+F 3 "" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 2200
+Wire Wire Line
+	4500 2200 4650 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5CC9CAB6
+P 4500 2300
+F 0 "#PWR?" H 4500 2050 50  0001 C CNN
+F 1 "GND" H 4505 2127 50  0000 C CNN
+F 2 "" H 4500 2300 50  0001 C CNN
+F 3 "" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 2300
+Wire Wire Line
+	4500 2300 4650 2300
+Wire Wire Line
+	4300 2200 4300 3000
+Wire Wire Line
+	4300 3000 4650 3000
+Connection ~ 4300 2200
+Wire Wire Line
+	4300 2200 4500 2200
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5CC9CC23
+P 7000 2900
+F 0 "J?" H 7080 2892 50  0000 L CNN
+F 1 "Conn_01x04" H 7080 2801 50  0000 L CNN
+F 2 "" H 7000 2900 50  0001 C CNN
+F 3 "~" H 7000 2900 50  0001 C CNN
+	1    7000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3300 4650 3300
+Wire Wire Line
+	4650 3400 4050 3400
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5CC9CBD9
+P 3850 3500
+F 0 "J?" H 3770 3917 50  0000 C CNN
+F 1 "Conn_01x05" H 3770 3826 50  0000 C CNN
+F 2 "" H 3850 3500 50  0001 C CNN
+F 3 "~" H 3850 3500 50  0001 C CNN
+	1    3850 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3500 4650 3500
+Wire Wire Line
+	4650 3600 4050 3600
+Wire Wire Line
+	4050 3700 4650 3700
+Wire Wire Line
+	6200 2800 6800 2800
+Wire Wire Line
+	6800 2900 6200 2900
+Wire Wire Line
+	6200 3000 6800 3000
+Wire Wire Line
+	6800 3100 6200 3100
+$EndSCHEMATC
